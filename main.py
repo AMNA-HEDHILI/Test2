@@ -63,5 +63,5 @@ def top_performing_stocks(time_period):
 def stocks_by_industry(industry):
     stocks = getStocksByIndustry(industry)
     return jsonify(stocks)
-if (__name__== '__main__'):
+if __name__== '__main__':
     app.run(debug=True)
